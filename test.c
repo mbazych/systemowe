@@ -1,11 +1,14 @@
+#include <stdio.h>
+
 int main(int argc, char *argv[])
 {
     printf("Hello World!\n");
 
-    int i=0;
-    for(i=0; i<argc; i++)
+    int i = 0;
+    for (i = 0; i < argc; i++)
     {
-        if(i==0) {
+        if (i == 0)
+        {
             printf("Program name is %s\n", argv[i]);
             continue;
         }
