@@ -29,7 +29,6 @@ int main(int argc, char *argv[])
     {
         sleep(3);
         suma += 3;
-        // zamienic x i y na wartosci
         if (fprintf(stream, "Wywolanie nr %d. Program spal juz przez %d sekund\n", i, suma) == EOF)
         {
             printf("Blad!");
